@@ -29,3 +29,6 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+# 画像がGITHubに登録されないように設定
+public/uploads/*
