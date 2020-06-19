@@ -22,7 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-
 # chat-space DB設計
 ## usersテーブル
 |Column|Type|Options|
