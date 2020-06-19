@@ -62,8 +62,8 @@ Things you may want to cover:
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
 ### Association
--belong_to :user
--belong_to :group
+- belong_to :user
+- belong_to :group
 
 ## messages_groupsテーブル
 |Column|Type|Options|
@@ -71,5 +71,5 @@ Things you may want to cover:
 |message_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
 ### Association
--belong_to :message
--belong_to :group
+- belong_to :message
+- belong_to :group
