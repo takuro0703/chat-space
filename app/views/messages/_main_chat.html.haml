@@ -1,0 +1,47 @@
+.main-chat
+  .main-chat__group-info
+    .main-chat__group-info__info-leftspace
+      .main-chat__group-info__info-leftspace__info-text
+        test
+      .main-chat__group-info__info-leftspace__info-member
+        Member:masa
+    = link_to "#", class: "main-chat__group-info__info-rightspace" do
+      Edit
+  .main-chat__message-list
+    .main-chat__message-list__message-box
+      .main-chat__message-list__message-box__message-user
+        .main-chat__message-list__message-box__message-user__message-name
+          masa
+        .main-chat__message-list__message-box__message-user__message-date
+          2019/11/20/（Wed）17:43:01
+      .main-chat__message-list__message-box__message-text
+        おはよう
+    .main-chat__message-list__message-box
+      .main-chat__message-list__message-box__message-user
+        .main-chat__message-list__message-box__message-user__message-name
+          taku
+        .main-chat__message-list__message-box__message-user__message-date
+          2019/12/20/（Wed）17:44:01
+      .main-chat__message-list__message-box__message-text
+        おやすみ
+    .main-chat__message-list__message-box
+      .main-chat__message-list__message-box__message-user
+        .main-chat__message-list__message-box__message-user__message-name
+          izu
+        .main-chat__message-list__message-box__message-user__message-date
+          2019/12/30/（Wed）19:43:01
+      .main-chat__message-list__message-box__message-text
+        良いお年を
+  .main-chat__message-form
+    %form.main-chat__message-form__form-contents
+      .main-chat__message-form__form-contents__input-box
+        %input.main-chat__message-form__form-contents__input-box__input-text{"placeholder": "type a message", "type": "text"}
+        %label{class: "main-chat__message-form__form-contents__input-box__input-image"}
+          = icon('far', 'image', class: 'main-chat__message-form__form-contents__input-box__input-image')
+          %input{type: "file"}
+      = link_to "#", class: "main-chat__message-form__form-contents__form-send" do
+        Send
+      
+
+      
+  
