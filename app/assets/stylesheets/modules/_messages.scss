@@ -141,6 +141,9 @@
           right: 10px;
           top: 15px;
           position: absolute;
+          &__input-file {
+            display: none;
+          }
         }
       }
       &__form-send {

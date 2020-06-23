@@ -37,8 +37,8 @@
       .main-chat__message-form__form-contents__input-box
         %input.main-chat__message-form__form-contents__input-box__input-text{"placeholder": "type a message", "type": "text"}
         %label{class: "main-chat__message-form__form-contents__input-box__input-image"}
-          = icon('far', 'image', class: 'main-chat__message-form__form-contents__input-box__input-image')
-          %input{type: "file"}
+          = icon('far', 'image', class: 'main-chat__message-form__form-contents__input-box__input-image__input-icon')
+          %input{type: "file", class: 'main-chat__message-form__form-contents__input-box__input-image__input-file'}
       = link_to "#", class: "main-chat__message-form__form-contents__form-send" do
         Send
       
