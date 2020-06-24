@@ -50,15 +50,16 @@
     background-color: #2f3151;
     padding: 0px 20px;
     &__group-box {
-      color: #ffffff;
       font-weight: bold;
       padding: 20px 0px 40px;
       &__group-name {
         font-size: 15px;
+        color: #ffffff;
       }
       &__group-message {
         font-size: 11px;
         margin-top: 5px;
+        color: #ffffff;
       }
     }
   }
