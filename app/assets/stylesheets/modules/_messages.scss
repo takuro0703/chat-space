@@ -47,19 +47,22 @@
   }
   &__group-list {
     height: calc(100vh - 100px);
-    background-color: #2f3151;
+    background-color: #2f3e51;
     padding: 0px 20px;
     &__group-box {
       font-weight: bold;
       padding: 20px 0px 40px;
+
+      a {
+        color: #ffffff;
+        text-decoration: none;
+      }
       &__group-name {
         font-size: 15px;
-        color: #ffffff;
       }
       &__group-message {
         font-size: 11px;
         margin-top: 5px;
-        color: #ffffff;
       }
     }
   }
@@ -157,7 +160,6 @@
         margin-left: 15px;
         padding: 0px 30px;
         text-decoration: none;
-        padding-top: 15px;
       }
     }
   }
